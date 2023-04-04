@@ -1,0 +1,23 @@
+@media screen and(min-width: 480px) {
+  .container {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+  }
+  .features-icon {
+    display: none;
+  }
+
+  .features-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 72px;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .feature-list-title {
+    text-align: center;
+  }
+}
