@@ -1,5 +1,22 @@
 @media screen and (min-width: 480px) {
+  /** -------Header--------- */
+
   /** -------Section 2--------- */
+
+  .hero {
+    width: 428px;
+    height: 432px;
+  }
+
+  .hero.container {
+    width: 100%;
+    display: block;
+  }
+
+  .hero-title {
+    width: 320px;
+    text-align: center;
+  }
 
   /** -------Section 2--------- */
 
