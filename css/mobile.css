@@ -1,23 +1,36 @@
-@media screen and(min-width: 480px) {
+@media screen and (min-width: 480px) {
+  /** -------Section 2--------- */
+
+  /** -------Section 2--------- */
+
   .container {
     width: 100%;
     padding-left: 15px;
     padding-right: 15px;
-    margin: 0 auto;
+    margin: 96px auto 0;
   }
-  .features-icon {
+
+  .features-icon-wrap {
+    opacity: 0;
     display: none;
   }
 
   .features-list {
     display: flex;
     flex-wrap: wrap;
-    gap: 72px;
     flex-direction: column;
+    gap: 72px;
     width: 100%;
   }
 
-  .feature-list-title {
+  .features-list-title {
     text-align: center;
   }
+  /** -------Section 3--------- */
+
+  .work.section {
+    display: none;
+  }
+
+  /** -------Section 3--------- */
 }
