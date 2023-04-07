@@ -20,10 +20,10 @@
   }
 
   .features-list {
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     gap: 72px;
-    width: 100%;
+    width: 100%; */
   }
 
   .features-list-title {

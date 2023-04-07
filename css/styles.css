@@ -264,12 +264,11 @@ img {
   visibility: hidden;
 }
 
-.features-list {
+/* .features-list {
   display: flex;
-  flex-direction: column;
   gap: 72px;
   width: 100%;
-}
+} */
 
 .features-list-title {
   font-weight: 700;
