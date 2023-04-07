@@ -21,14 +21,29 @@
 
   .features-list {
     display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
     gap: 72px;
     width: 100%;
   }
 
   .features-list-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11em;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
     text-align: center;
+  }
+
+  .features-text {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
   }
   /** -------Section 3--------- */
 

@@ -13,16 +13,35 @@
   .features-list {
     width: 100%;
     display: flex;
-    flex-wrap: wrap;
     gap: 24px;
   }
 
   .features-list-item {
-    flex-basis: calc((100%-24px) / 2);
+    flex-basis: calc((100% - 24px) / 2);
   }
 
   .features-icon-wrap {
     display: none;
+  }
+
+  .features-list-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11em;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+    text-align: center;
+  }
+
+  .features-text {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
   }
 
   /**----------Section 3-----------*/
