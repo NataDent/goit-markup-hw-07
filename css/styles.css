@@ -273,16 +273,22 @@ img {
 }
 
 .features-list-title {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   color: #2e2f42;
   margin-bottom: 8px;
+  text-align: center;
 }
 
 .features-text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
+  color: #434455;
 }
 
 .features-list-item-top {
@@ -292,18 +298,6 @@ img {
   padding: 24px 100px;
   margin-bottom: 8px; */
 }
-
-/* .features-icon-wrap {
-  width: 64px;
-  height: 64px;
-  margin-left: auto;
-  margin-right: auto;
-} */
-
-/* .feature-icon {
-  width: 100%;
-  height: 100%;
-} */
 
 /**------------- WORK------------ */
 /* 
