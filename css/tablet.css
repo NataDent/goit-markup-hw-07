@@ -5,19 +5,19 @@
   }
 
   .container {
-    width: 766px;
+    max-width: 768px;
     padding: 0 15px;
+    margin: 0 auto;
   }
   /**----------Section 2-----------*/
 
-  .features-list.list {
+  .features-list {
     display: flex;
     flex-wrap: wrap;
     gap: 24px 72px;
-    width: 100%;
   }
+
   .features-list-item {
-    width: calc((100% - 24px) / 2);
   }
 
   .features-icon-wrap {

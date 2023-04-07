@@ -48,7 +48,7 @@ body {
 } */
 
 .container {
-  width: 100%;
+  max-width: 428px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
@@ -958,5 +958,3 @@ img {
   border-radius: 2px;
   border: 1px solid rgba(46, 47, 66, 0.4);
 } */
-@media screen and (max-width: 427px;) {
-}
