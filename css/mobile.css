@@ -1,10 +1,9 @@
-@media screen and (max-width: 428px) {
+@media screen and (max-width: 427px) {
   /** -------Header--------- */
 
   /** -------Section 2--------- */
   .section {
-    padding-top: 96px;
-    padding-bottom: 96px;
+    padding: 96px 0;
   }
 
   /** -------Section 2--------- */
@@ -16,7 +15,6 @@
   }
 
   .features-icon-wrap {
-    opacity: 0;
     display: none;
   }
 

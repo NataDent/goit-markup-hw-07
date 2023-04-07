@@ -37,6 +37,9 @@ body {
   line-height: 1.5;
   color: #434455;
 }
+.section {
+  padding: 96px 0;
+}
 
 /* .section {
   margin-bottom: 96px;

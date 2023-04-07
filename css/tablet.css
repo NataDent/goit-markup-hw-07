@@ -1,2 +1,23 @@
-@media screen and (min-width: 429px) and (max-width: 767px) {
+@media screen (min-width: 768px) {
+  .section {
+    padding-top: 96px;
+    padding-bottom: 96px;
+  }
+
+  .container {
+    width: 100%;
+    padding: 0 15px;
+  }
+  /**----------Section 2-----------*/
+  .features-list.list {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    flex-basis: calc((100%-24px) / 2);
+    gap: 24px 72px;
+  }
+
+  .features-icon-wrap {
+    display: none;
+  }
 }
