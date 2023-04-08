@@ -8,6 +8,53 @@
     padding: 0 15px;
     margin: 0 auto;
   }
+  /**----------Hero-----------*/
+  .hero {
+    background-color: #2e2f42;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/hero-bg-pic-tab-min.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding-top: 109px;
+    padding-bottom: 115px;
+  }
+
+  .hero-title {
+    display: block;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11em;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+    margin: 0 auto 36px auto;
+  }
+
+  .hero-btn {
+    background-color: #4d5ae5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+    border: none;
+    display: block;
+    margin: auto;
+    padding: 16px 32px;
+    transition: transform var(--tra);
+  }
+  .hero-btn:is(:hover, :focus) {
+    background-color: var(--second-background-color);
+  }
+
   /**----------Section 2-----------*/
 
   .features-list {
