@@ -41,22 +41,11 @@ body {
   padding: 96px 0;
 }
 
-/* .section {
-  margin-bottom: 96px;
-  padding-top: 120px;
-  padding-bottom: 120px;
-} */
-
 .container {
   max-width: 428px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-  /* box-sizing: border-box;
-  display: flex;
-  width: 1158px;
-  padding: 0 15px;
-  margin: 0 auto; */
 }
 
 .link {
@@ -75,13 +64,9 @@ img {
   height: auto;
 }
 
-/* .button {
-  cursor: pointer;
-}
-
 .activ {
   color: var(--second-background-color);
-} */
+}
 
 .visually-hidden {
   position: absolute;
@@ -215,7 +200,10 @@ img {
   background-position: center;
   background-size: cover;
   text-align: center;
+  padding-top: 96px;
+  padding-bottom: 96px;
 }
+
 .hero-title {
   display: block;
   font-weight: 700;
