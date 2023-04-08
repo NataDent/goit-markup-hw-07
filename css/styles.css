@@ -215,8 +215,6 @@ img {
   background-position: center;
   background-size: cover;
   text-align: center;
-  padding: 112px 54px;
-  max-width: 428px;
 }
 .hero-title {
   display: block;
@@ -751,8 +749,8 @@ img {
   transform: translate(-50%, -50%);
   padding: 24px;
   display: block;
-  min-width: 408px;
-  min-height: 584px;
+  min-width: 392px;
+  min-height: 586px;
   background-color: #fcfcfc;
   border-radius: 4px;
 }
