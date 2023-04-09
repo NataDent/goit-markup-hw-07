@@ -156,6 +156,69 @@ img {
   display: block;
   margin-left: auto;
 }
+.mob-menu {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  min-width: 320px;
+  height: 100%;
+  background-color: #ffffff;
+  padding: 24px 35px 40px 40px;
+}
+
+.menu-close-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  border: 1px solid #e7e9fc;
+  background-color: transparent;
+  margin-left: auto;
+  margin-bottom: 32px;
+}
+
+.menu-close-item {
+  fill: #2e2f42;
+}
+
+.mob-menu-list {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.mob-menu-item {
+  font-style: 700;
+  font-size: 36px;
+  text-align: left;
+  vertical-align: top;
+  letter-spacing: calc(40 / 36);
+  color: #2e2f42;
+}
+
+.mob-menu-link {
+}
+
+.mob-menu-address {
+}
+.mob-menu-address-list {
+}
+.mob-menu-address-item {
+}
+.mob-menu-address-item-contact {
+}
+.mob-menu-soc-list {
+}
+.mob-menu-soc-list-item {
+}
+.mob-menu-soc {
+}
+.footer-soc-icon {
+}
+.fmob-menu-soc {
+}
 
 /**------------- HERO------------ */
 .hero {
