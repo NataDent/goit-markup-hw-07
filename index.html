@@ -23,7 +23,7 @@
   <body>
     <!--Хедер-->
 
-    <!-- <header class="header">
+    <header class="header">
       <div class="container header-container">
         <nav class="header-nav" style="display: flex">
           <a class="header-logo link" href="./index.html">
@@ -51,16 +51,93 @@
                 >info@devstudio.com</a
               >
             </li>
-            <li>
+            <li class="address-item">
               <a class="address-item-contact link" href="tel:+110001111111"
                 >+11 (000) 111-11-11</a
               >
             </li>
           </ul>
         </address>
+
+        <button type="button" class="menu-open-btn">
+          <svg width="32" height="22" class="burger-icon">
+            <use
+              href="./images/icons.svg#icon-charm_menu-hamburger-converted"
+            ></use>
+          </svg>
+        </button>
       </div>
-    </header> -->
-    <!-- Головний зміст -->
+      <div class="mob-menu">
+        <button type="button" class="menu-close" data-modal-close>
+          <svg width="8" height="8" class="modal-close-item">
+            <use href="./images/icons.svg#icon-cross"></use>
+          </svg>
+        </button>
+
+        <ul class="mob-menu-list list">
+          <li class="mob-menu-item">
+            <a class="mob-menu-link link active" href="./index.html">Studio</a>
+          </li>
+          <li class="mob-menu-item">
+            <a class="mob-menu-link link" href="./portfolio.html">Portfolio</a>
+          </li>
+          <li class="mob-menu-item">
+            <a class="mob-menu-link link" href="">Contacts</a>
+          </li>
+        </ul>
+
+        <address class="mob-menu-address">
+          <ul class="mob-menu-address-list list">
+            <li class="mob-menu-address-item">
+              <a
+                class="mob-menu-address-item-contact link"
+                href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li class="mob-menu-address-item">
+              <a
+                class="mob-menu-address-item-contact link"
+                href="tel:+110001111111"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+        </address>
+        <ul class="mob-menu-soc-list list">
+          <li class="mob-menu-soc-list-item">
+            <a class="mob-menu-soc link" href="">
+              <svg width="24" height="24" class="footer-soc-icon">
+                <use href="./images/icons.svg#icon-instagram-2"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="mob-menu-soc-list-item">
+            <a class="fmob-menu-soc link" href="">
+              <svg width="24" height="24" class="footer-soc-icon">
+                <use href="./images/icons.svg#icon-twitter-1"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="mob-menu-soc-list-item">
+            <a class="mob-menu-soc link" href="">
+              <svg width="24" height="24" class="footer-soc-icon">
+                <use href="./images/icons.svg#icon-facebook-1"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="mob-menu-soc-list-item">
+            <a class="mob-menu-soc link" href="">
+              <svg width="24" height="24" class="footer-soc-icon">
+                <use href="./images/icons.svg#icon-linkedin-1"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <!-- Головний зміст-->
 
     <main>
       <!--Секція1-->
@@ -76,7 +153,7 @@
 
       <!--Секція2-->
 
-      <!-- <section class="section">
+      <section class="section">
         <div class="container features-wrap">
           <h2 class="features-title" hidden>Features</h2>
 
@@ -140,7 +217,7 @@
             </li>
           </ul>
         </div>
-      </section> -->
+      </section>
 
       <!-- Секція3-->
 
@@ -420,7 +497,7 @@
 
     <!-- Футер -->
 
-    <!-- <footer class="footer section">
+    <footer class="footer section">
       <div class="container">
         <div class="footer-wrap">
           <a class="footer-logo link" href="./index.html">
@@ -483,7 +560,7 @@
           </div>
         </form>
       </div>
-    </footer> -->
+    </footer>
 
     <!-- Модальне вікно -->
 
