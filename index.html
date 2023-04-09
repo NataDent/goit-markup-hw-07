@@ -59,7 +59,7 @@
           </ul>
         </address>
 
-        <button type="button" class="menu-open-btn">
+        <button data-menu-open type="button" class="menu-open-btn">
           <svg width="32" height="22" class="burger-icon">
             <use
               href="./images/icons.svg#icon-charm_menu-hamburger-converted"
@@ -67,8 +67,9 @@
           </svg>
         </button>
       </div>
-      <div class="mob-menu">
-        <button type="button" class="menu-close-btn" data-mmenu-close>
+      <div class="mob-menu" data-menu>
+      <div>
+        <button data-menu-close  type="button" class="menu-close-btn">
           <svg width="8" height="8" class="menu-close-item">
             <use href="./images/icons.svg#icon-cross"></use>
           </svg>
@@ -85,25 +86,21 @@
             <a class="mob-menu-link link" href="">Contacts</a>
           </li>
         </ul>
-
+      </div>
         <address class="mob-menu-address">
           <ul class="mob-menu-address-list list">
             <li class="mob-menu-address-item">
-              <a
-                class="mob-menu-address-item-contact link"
-                href="mailto:info@devstudio.com"
-                >info@devstudio.com</a
-              >
-            </li>
-            <li class="mob-menu-address-item">
-              <a
-                class="mob-menu-address-item-contact link"
-                href="tel:+110001111111"
+              <a class="mob-menu-tel link" href="tel:+110001111111"
                 >+11 (000) 111-11-11</a
               >
             </li>
+            <li class="mob-menu-address-item">
+              <a class="mob-menu-mail link" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
           </ul>
-        </address>
+        
         <ul class="mob-menu-soc-list list">
           <li class="mob-menu-soc-list-item">
             <a class="mob-menu-soc link" href="">
@@ -113,7 +110,7 @@
             </a>
           </li>
           <li class="mob-menu-soc-list-item">
-            <a class="fmob-menu-soc link" href="">
+            <a class="mob-menu-soc link" href="">
               <svg width="24" height="24" class="footer-soc-icon">
                 <use href="./images/icons.svg#icon-twitter-1"></use>
               </svg>
@@ -128,13 +125,14 @@
           </li>
           <li class="mob-menu-soc-list-item">
             <a class="mob-menu-soc link" href="">
-              <svg width="24" height="24" class="footer-soc-icon">
+              <svg width="24" height="24" class="menu-soc-icon">
                 <use href="./images/icons.svg#icon-linkedin-1"></use>
               </svg>
             </a>
           </li>
         </ul>
       </div>
+      </address>
     </header>
 
     <!-- Головний зміст-->
@@ -656,5 +654,6 @@
       </div>
     </div>
     <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
   </body>
 </html>
