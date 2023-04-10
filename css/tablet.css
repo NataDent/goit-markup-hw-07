@@ -13,13 +13,13 @@
     border-bottom: 1px solid #e7e9fc;
   }
 
-  .container.header-container {
+  /* .container.header-container {
     width: 100%;
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-  }
+  } */
 
   .header-logo {
     color: var(--brand-color-light);
@@ -32,7 +32,7 @@
     text-transform: uppercase;
     display: flex;
     align-items: center;
-    margin-right: 76px;
+    /* margin-right: 76px; */
   }
 
   .half-header-logo {
@@ -81,18 +81,19 @@
 
   .header-list.list {
     display: flex;
-    gap: 24px;
+    gap: 40px;
     margin-left: 120px;
   }
 
   .address {
     display: block;
     font-style: normal;
+    margin-left: auto;
   }
 
   .address-list {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     gap: 12px;
   }
 

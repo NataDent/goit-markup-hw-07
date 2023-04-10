@@ -43,7 +43,6 @@ body {
 }
 
 .container {
-  max-width: 428px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
@@ -135,9 +134,9 @@ img {
   display: block;
 }
 
-/* .address-item-contact:is(:hover, :focus) {
+.address-item-contact:is(:hover, :focus) {
   color: #404bbf;
-} */
+}
 
 .address-item-contact {
   text-decoration: none;
@@ -354,6 +353,7 @@ img {
 /**------------- WORK------------ */
 
 .work {
+  display: none;
   padding-top: 0;
 }
 
@@ -388,16 +388,20 @@ img {
 /**------------- TEAM------------ */
 
 .team {
+  display: none;
+  width: 100%;
   background-color: #f4f4fd;
-  padding-top: 120px;
-  padding-bottom: 120px;
+  /* padding-top: 120px;
+  padding-bottom: 120px; */
 }
 
-.team.section > .container {
-  flex-direction: column;
-  align-items: center;
+/* .team.section > .container {
+  
+ 
+} */
+.team-list {
+  display: block;
 }
-
 .team-card-info {
   padding-top: 32px;
   padding-bottom: 32px;
@@ -531,6 +535,7 @@ img {
 /**------------- FOOTER------------ */
 
 .footer.section {
+  display: none;
   background-color: #2e2f42;
   justify-content: flex-start;
   padding-top: 100px;
@@ -1004,3 +1009,11 @@ img {
   border-radius: 2px;
   border: 1px solid rgba(46, 47, 66, 0.4);
 } */
+/* @media screen and (min-width: 320px) {
+  .container.header-container { 
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }  */
