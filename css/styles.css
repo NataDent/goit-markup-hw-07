@@ -84,12 +84,16 @@ img {
 
 .header {
   border-bottom: 1px solid #e7e9fc;
-  padding: 24px 16px 22px 16px;
+  min-width: 320px;
+  height: 70px;
 }
 
 .container.header-container {
+  width: 100%;
+  height: 100%;
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .header-logo {

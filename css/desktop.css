@@ -39,16 +39,6 @@
     line-height: 1.5;
     color: #434455;
   }
-  .section {
-    padding: 96px 0;
-  }
-
-  .container {
-    max-width: 428px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin: 0 auto;
-  }
 
   .link {
     text-decoration: none;
@@ -157,7 +147,7 @@
     background-color: var(--second-background-color);
     display: block;
     border-radius: 2px;
-    transform: translateY(23px);
+    transform: translateY(19px);
   }
 
   .header-list.list {
@@ -212,6 +202,7 @@
     padding-top: 188px;
     padding-bottom: 188px;
     min-width: 1158px;
+    height: 600px;
     margin: 0 auto;
   }
 
