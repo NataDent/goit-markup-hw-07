@@ -147,7 +147,7 @@
     background-color: var(--second-background-color);
     display: block;
     border-radius: 2px;
-    transform: translateY(19px);
+    transform: translateY(23px);
   }
 
   .header-list.list {
@@ -156,12 +156,12 @@
   }
 
   .address {
+    display: flex;
     font-style: normal;
     margin-left: auto;
   }
 
   .address-list {
-    display: flex;
     padding-top: 24px;
     padding-bottom: 24px;
   }

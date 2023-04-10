@@ -163,7 +163,7 @@
   }
 
   .address {
-    display: flex;
+    display: block;
     font-style: normal;
   }
 
