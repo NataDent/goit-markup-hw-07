@@ -353,7 +353,6 @@ img {
 /**------------- WORK------------ */
 
 .work {
-  display: none;
   padding-top: 0;
 }
 
@@ -381,7 +380,7 @@ img {
 
 .work-list {
   display: flex;
-  flex-basis: calc((100%-2 * 24px) / 3);
+  flex-basis: calc((100% - 2 * 24px) / 3);
   gap: 24px;
 }
 
@@ -473,12 +472,6 @@ img {
 
 /**-------------CUSTOMERS----------*/
 
-.customers.section .container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
 .customers-title {
   font-weight: 700;
   font-size: 36px;
@@ -492,6 +485,8 @@ img {
 
 .customers-list {
   display: flex;
+  flex-wrap: wrap;
+  width: calc((100% - 2 * 24px) / 2);
   gap: 24px;
 }
 

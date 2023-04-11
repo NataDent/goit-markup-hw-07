@@ -225,10 +225,6 @@
 
   /**----------Section 3-----------*/
 
-  .work.section {
-    display: none;
-  }
-
   /**----------Team-----------*/
   .team-list {
     display: flex;
