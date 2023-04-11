@@ -227,6 +227,7 @@
 
   /**----------Team-----------*/
   .team-list {
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     flex-basis: calc((100% - 24px) / 2);
