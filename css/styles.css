@@ -383,17 +383,16 @@ img {
   margin-bottom: 72px;
 }
 
-.team-card {
-  max-width: 264px;
-}
-
 .team-member {
   max-width: 264px;
   background: #ffffff;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
-  margin: 0 auto;
+}
+
+.team-card {
+  width: 100%;
 }
 
 .team-member-name {
@@ -441,7 +440,9 @@ img {
 }
 
 /**-------------CUSTOMERS----------*/
-
+/* .customers.container {
+  display: flex;
+} */
 .customers-title {
   font-weight: 700;
   font-size: 36px;
@@ -454,17 +455,18 @@ img {
 }
 
 .customers-list {
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
-  width: calc((100% - 2 * 24px) / 2);
-  gap: 24px;
+  flex-basis: calc((100% - 16px) / 2);
+  gap: 72px 16px;
 }
 
-.customers-list-item {
+/* .customers-list-item {
   width: 168px;
   height: 88px;
   gap: 24px;
-}
+} */
 
 .customers-link {
   width: 100%;

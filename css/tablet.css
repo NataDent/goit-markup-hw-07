@@ -230,7 +230,8 @@
     display: flex;
     flex-wrap: wrap;
     flex-basis: calc((100% - 24px) / 2);
-    gap: 24px 64px;
+    row-gap: 64px;
+    column-gap: 24px;
   }
 
   .team-member {
@@ -241,6 +242,14 @@
     border-radius: 0px 0px 4px 4px;
   }
 
+  /**----------Customers----------**/
+  .customers-list {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: calc((100% - 2 * 24px) / 3);
+    gap: 72px 24px;
+  }
   /**-----------Модальне вікно---------------**/
 
   .backdrop {

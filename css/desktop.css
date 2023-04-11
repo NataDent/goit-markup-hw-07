@@ -268,7 +268,12 @@
     flex-basis: calc((100% - 3 * 24px) / 4);
     gap: 24px;
   }
-
+  /**----------Customers----------**/
+  .customers-list {
+    width: 100%;
+    display: flex;
+    gap: 24px;
+  }
   /**-----------Модальне вікно---------------**/
 
   .backdrop {
