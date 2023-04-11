@@ -388,20 +388,16 @@ img {
 /**------------- TEAM------------ */
 
 .team {
-  display: none;
   width: 100%;
   background-color: #f4f4fd;
-  /* padding-top: 120px;
-  padding-bottom: 120px; */
 }
 
-/* .team.section > .container {
-  
- 
-} */
 .team-list {
-  display: block;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 72px;
 }
+
 .team-card-info {
   padding-top: 32px;
   padding-bottom: 32px;
@@ -418,21 +414,17 @@ img {
   margin-bottom: 72px;
 }
 
-.team-list {
-  display: flex;
-  gap: 32px;
-}
-
 .team-card {
   max-width: 264px;
 }
 
 .team-member {
-  max-width: 360px;
+  max-width: 264px;
   background: #ffffff;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
+  margin: 0 auto;
 }
 
 .team-member-name {
