@@ -2,7 +2,7 @@
   .container {
     max-width: 768px;
     padding: 0 15px;
-    margin: 0 auto;
+    margin: 0;
   }
 
   /**------------- HEADER------------ */
@@ -253,7 +253,6 @@
   }
   /**----------Footer----------**/
   .footer.section .container {
-    padding-left: 108px;
     justify-content: flex-start;
     gap: 0;
   }
@@ -262,6 +261,7 @@
   }
   .footer-soc-wrap {
     margin-left: 24px;
+    margin-right: auto;
   }
   .footer-title {
     text-align-last: left;

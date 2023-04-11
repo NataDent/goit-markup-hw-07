@@ -6,7 +6,7 @@
     max-width: 428px;
     padding-left: 15px;
     padding-right: 15px;
-    margin: 0 auto;
+    /* margin: 0 auto; */
   }
 
   /** -------Header--------- */
@@ -253,12 +253,12 @@
 
   /** -------Section 2--------- */
 
-  .container {
+  /* .container {
     max-width: 428px;
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
-  }
+  } */
 
   .features-icon-wrap {
     display: none;
@@ -290,14 +290,24 @@
     gap: 72px;
   }
 
-  .footer-wrap,
-  .footer-soc-wrap {
+  .footer-wrap {
     margin: 0 auto;
   }
 
-  .input-btn {
+  .footer-soc-wrap {
     margin: 0 auto;
   }
+  .footer-form-wrap {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .footer-mail {
+    width: 100%;
+  }
+
   /**-----------Модальне вікно---------------**/
 
   .backdrop {
