@@ -283,12 +283,21 @@
     letter-spacing: 0.02em;
     color: #434455;
   }
-  /** -------Section 3--------- */
+  /** -------Footer--------- */
+  .footer.section .container {
+    flex-direction: column;
+    justify-content: center;
+    gap: 72px;
+  }
 
-  /** -------Team-------- */
+  .footer-wrap,
+  .footer-soc-wrap {
+    margin: 0 auto;
+  }
 
-  /**----------Customers----------**/
-
+  .input-btn {
+    margin: 0 auto;
+  }
   /**-----------Модальне вікно---------------**/
 
   .backdrop {

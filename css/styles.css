@@ -361,6 +361,11 @@ img {
   background-color: #f4f4fd;
 }
 
+.team.container {
+  display: flex;
+  justify-content: center;
+}
+
 .team-list {
   display: flex;
   flex-wrap: wrap;
@@ -496,17 +501,16 @@ img {
 /**------------- FOOTER------------ */
 
 .footer.section {
-  display: none;
   background-color: #2e2f42;
-  justify-content: flex-start;
-  padding-top: 100px;
-  padding-bottom: 100px;
 }
 
 .footer.section .container {
+  display: flex;
   flex-wrap: wrap;
 }
+
 .footer-wrap {
+  max-width: 264px;
   display: flex;
   flex-direction: column;
 }
@@ -523,6 +527,8 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .half-footer-logo {
@@ -545,7 +551,6 @@ img {
 }
 .footer-soc-wrap {
   width: 208px;
-  margin-left: 120px;
 }
 .footer-title {
   font-style: normal;
@@ -554,6 +559,8 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #ffffff;
+  /* margin-bottom: 16px; */
+  text-align: center;
   margin-bottom: 16px;
 }
 
@@ -585,20 +592,24 @@ img {
 }
 
 .footer-form {
+  width: 100%;
   display: block;
-  width: 453px;
-  height: 40px;
-  margin-left: 80px;
+
+  /* margin-left: 80px; */
 }
 
 .footer-form-wrap {
+  width: 100%;
   display: flex;
-  height: 40px;
+  flex-wrap: wrap;
+  /* flex-direction: column; */
+  /* justify-content: center; */
+  align-items: center;
+  gap: 16px;
 }
 
 .footer-mail {
-  display: block;
-  width: 264px;
+  width: 100%;
   font-family: inherit;
   font-size: 12px;
   line-height: 2;
@@ -611,7 +622,8 @@ img {
 }
 
 .input-btn {
-  height: 100%;
+  width: 165px;
+  height: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -621,7 +633,6 @@ img {
   border-radius: 4px;
   gap: 16px;
   padding: 8px 24px;
-  margin-left: 24px;
   transition: transform var(--tra);
 }
 
@@ -642,12 +653,12 @@ img {
   color: inherit;
 }
 
-/* .footer-form-comment::placeholder {
+.footer-form-comment::placeholder {
   font-size: 12px;
   line-height: 1.17em;
   letter-spacing: 0.04em;
   color: rgba(46, 47, 66, 0.4);
-} */
+}
 
 /**--------------ПОРТФОЛИО-----------*/
 .portfolio {
