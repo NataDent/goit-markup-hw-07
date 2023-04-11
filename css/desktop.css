@@ -234,8 +234,7 @@
   }
 
   .work-wrap {
-    display: flex;
-    flex-direction: column;
+    display: none;
   }
 
   .work-item {
