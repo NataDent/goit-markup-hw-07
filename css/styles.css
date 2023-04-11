@@ -364,6 +364,7 @@ img {
 .team-list {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   gap: 72px;
 }
 
@@ -459,6 +460,7 @@ img {
 .customers-list {
   width: 100%;
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
   flex-basis: calc((100% - 16px) / 2);
   column-gap: 16px;
