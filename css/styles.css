@@ -326,6 +326,9 @@ img {
 .scrolls-title {
   visibility: hidden;
 }
+.features.container {
+  width: 100%;
+}
 
 .features-list-title {
   font-weight: 700;
@@ -335,6 +338,10 @@ img {
   color: #2e2f42;
   margin-bottom: 8px;
   text-align: center;
+}
+
+.features-list-item:not(:last-child) {
+  margin-bottom: 72px;
 }
 
 .features-text {
