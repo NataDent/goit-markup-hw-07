@@ -255,15 +255,19 @@
   .footer.section .container {
     display: flex;
     flex-direction: row;
+    gap: 0;
   }
 
   .footer-wrap {
-    margin-left: 108px;
-    margin-right: 0;
+    margin: 0 0 72px 108px;
   }
+
   .footer-logo {
     margin-bottom: 16px;
     margin-left: 0;
+  }
+  .footer-text {
+    margin-top: 0;
   }
   .footer-soc-wrap {
     margin-left: 24px;
@@ -279,7 +283,7 @@
   .footer-form-wrap {
     display: flex;
     flex-direction: row;
-    gap: 16px;
+    justify-content: start;
   }
 
   .footer-mail {
@@ -287,8 +291,8 @@
     height: 40px;
     margin: 0;
   }
-  .input-button {
-    margin: 0;
+  .input-btn {
+    margin: 0 0 0 16px;
   }
 
   /**-----------Модальне вікно---------------**/
