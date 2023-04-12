@@ -299,13 +299,20 @@
   }
   .footer-form-wrap {
     width: 100%;
-    display: flex;
+    display: block;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
   }
 
   .footer-mail {
-    width: 100%;
+    min-width: 398px;
+    height: 40px;
+    margin-bottom: 16px;
+  }
+  .input-btn {
+    margin-right: auto;
+    margin-left: auto;
   }
 
   /**-----------Модальне вікно---------------**/

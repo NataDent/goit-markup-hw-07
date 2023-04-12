@@ -507,7 +507,7 @@ img {
 .footer.section .container {
   display: flex;
   flex-wrap: wrap;
-  margin: 0 auto;
+  /* margin: 0 auto; */
 }
 
 .footer-wrap {
@@ -599,11 +599,7 @@ img {
 .footer-form-wrap {
   width: 100%;
   display: flex;
-  flex-wrap: wrap;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 16px;
 }
 
 .footer-mail {

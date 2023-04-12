@@ -273,7 +273,7 @@
   }
 
   .footer-mail {
-    width: 264px;
+    max-width: 264px;
     height: 40px;
   }
 
