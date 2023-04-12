@@ -311,8 +311,7 @@
     margin-bottom: 16px;
   }
   .input-btn {
-    margin-right: auto;
-    margin-left: auto;
+    margin: 0 auto;
   }
 
   /**-----------Модальне вікно---------------**/

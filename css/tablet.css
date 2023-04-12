@@ -253,28 +253,42 @@
   }
   /**----------Footer----------**/
   .footer.section .container {
-    justify-content: flex-start;
-    gap: 0;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .footer-wrap {
+    margin-left: 108px;
+    margin-right: 0;
   }
   .footer-logo {
     margin-bottom: 16px;
+    margin-left: 0;
   }
   .footer-soc-wrap {
     margin-left: 24px;
-    margin-right: auto;
   }
   .footer-title {
-    text-align-last: left;
+    text-align: left;
   }
   .footer-form {
-    flex-direction: row;
     min-width: 453px;
-    margin-left: 0;
+    margin-left: 108px;
+    margin-right: 0;
+  }
+  .footer-form-wrap {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
   }
 
   .footer-mail {
-    max-width: 264px;
+    min-width: 264px;
     height: 40px;
+    margin: 0;
+  }
+  .input-button {
+    margin: 0;
   }
 
   /**-----------Модальне вікно---------------**/
