@@ -244,6 +244,7 @@
   }
 
   /**----------Customers----------**/
+
   .customers-list {
     display: flex;
     flex-wrap: wrap;
@@ -251,6 +252,10 @@
     row-gap: 72px;
     column-gap: 24px;
   }
+  .customers-list-item {
+    width: 168px;
+  }
+
   /**----------Footer----------**/
   .footer.section .container {
     display: flex;

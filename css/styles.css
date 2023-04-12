@@ -446,8 +446,10 @@ img {
 }
 
 /**-------------CUSTOMERS----------*/
-.customers.container {
+.customers.section .container {
   display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
   justify-content: center;
 }
 
@@ -473,8 +475,8 @@ img {
 }
 
 .customers-list-item {
-  max-width: 168px;
-  max-height: 88px;
+  max-width: 190px;
+  height: 88px;
 }
 
 .customers-link {
@@ -504,16 +506,16 @@ img {
   background-color: #2e2f42;
 }
 
-.footer.section .container {
-  display: flex;
-  flex-wrap: wrap;
-  /* margin: 0 auto; */
+.footer .container {
+  flex-direction: column;
+  justify-content: center;
 }
 
 .footer-wrap {
   max-width: 264px;
   display: flex;
   flex-direction: column;
+  margin: 0 auto 72px auto;
 }
 
 .footer-logo {
@@ -552,7 +554,9 @@ img {
 }
 .footer-soc-wrap {
   width: 208px;
+  margin: 0 auto 72px auto;
 }
+
 .footer-title {
   font-style: normal;
   font-weight: 500;
@@ -603,6 +607,8 @@ img {
 }
 
 .footer-mail {
+  min-width: 398px;
+  height: 40px;
   font-family: inherit;
   font-size: 12px;
   line-height: 2;
@@ -612,6 +618,7 @@ img {
   border: 1px solid #ffffff;
   border-radius: 4px;
   outline: none;
+  margin-bottom: 16px;
 }
 
 .input-btn {
@@ -627,6 +634,7 @@ img {
   gap: 16px;
   padding: 8px 24px;
   transition: transform var(--tra);
+  margin: 0 auto;
 }
 
 .input-btn:hover {
