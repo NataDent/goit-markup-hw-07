@@ -32,6 +32,7 @@
     text-transform: uppercase;
     display: flex;
     align-items: center;
+    margin-right: 0;
   }
 
   .half-header-logo {
@@ -93,6 +94,7 @@
   .address-list {
     display: flex;
     flex-wrap: wrap;
+    justify-content: flex-end;
     gap: 12px;
   }
 
@@ -480,8 +482,8 @@
     background-color: #404bbf;
     border-bottom: 1px solid #e7e9fc;
   }
-
-  .container.header-container {
+}
+/* .container.header-container {
     display: flex;
     align-items: center;
   }
@@ -497,7 +499,6 @@
     text-transform: uppercase;
     display: flex;
     align-items: center;
-    margin-right: 76px;
   }
 
   .half-header-logo {
@@ -579,7 +580,6 @@
     color: #434455;
     margin-left: 40px;
     transition: transform var(--tra);
-  }
+  } */
 
-  /**-------Team------**/
-}
+/**-------Team------**/
